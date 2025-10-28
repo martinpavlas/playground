@@ -4,7 +4,7 @@ isHome: true
 layout: home
 
 hero:
-  name: "Tobias playground"
+  name: "Kitty playground"
   image: /img/hero.svg
   actions:
     - theme: brand

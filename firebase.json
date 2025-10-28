@@ -1,0 +1,42 @@
+{
+    "hosting": [
+      {
+        "target": "beta",
+        "public": ".vitepress/dist",
+        "ignore": [
+          "firebase.json",
+          "**/.*",
+          "**/node_modules/**"
+        ]
+      },
+      {
+        "target": "prod",
+        "public": ".vitepress/dist",
+        "ignore": [
+          "firebase.json",
+          "**/.*",
+          "**/node_modules/**"
+        ],
+        "rewrites": [
+          {
+            "source": "**",
+            "destination": "/index.html"
+          }
+        ],
+        "headers": [ {
+          "source": "/*.@(img)",
+          "headers": [ {
+            "key": "Cache-Control",
+            "value": "max-age=60"
+          } ]
+        }, {
+          "source": "404.html",
+          "headers": [ {
+            "key": "Cache-Control",
+            "value": "max-age=300"
+          } ]
+        } ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,84 @@
+@media print {
+  .VPNav,
+  .VPLocalNav,
+  .VPSidebar,
+  .VPDocAside,
+  .VPDocFooter,
+  .lang {
+    display: none !important;
+  }
+
+  body {
+    font-size: 13px !important;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica", Arial, sans-serif;
+  }
+
+  h1 {
+    font-size: 2.5em !important;
+    margin: 10px 0 20px !important;
+  }
+  h2 {
+    font-size: 2em !important;
+    margin: 30px 0 20px !important;
+    padding: 0 !important;
+    border: none !important;
+  } 
+  h3 {
+    font-size: 1.5em !important;
+    margin: 25px 0 6px !important;
+    padding: 0 !important;
+  }
+  h4 {
+    font-size: 1.2em !important;
+    margin: 20px 0 0 !important;
+    padding: 0 !important;
+  }
+  h5 {
+    margin: 15px 0 0 !important;
+    font-size: 1.1em !important;
+  }
+  table, table th, table td {
+      font-size: 13px !important;
+  }
+
+  table th, table td {
+      padding: 4px 8px !important;
+  }
+
+  .vp-doc li + li {
+      margin-top:4px !important;
+  }
+
+  .vp-doc li > ol, .vp-doc li > ul {
+      margin: 0 0 0;
+  }
+
+  .sysex-bytes-description li + li {
+    margin-top:0 !important;
+  }
+
+  .sysex-bytes-description {
+    list-style: none !important;
+    padding-left: 1rem !important;
+  }
+
+  p {
+      margin: 8px 0 !important;
+      text-align: justify !important;
+      line-height: 20px !important;
+  }
+
+  .custom-block {
+      margin: 30px 0 !important;
+      padding: 6px 16px 6px !important;
+      font-size: 13px !important;
+  }
+
+  a {
+      text-decoration: none !important;
+  }
+}

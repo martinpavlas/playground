@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "prod": "electra-one-716c4",
+    "dev": "electra-one-dev-6bb77"
+  },
+  "targets": {
+    "electra-one-dev-6bb77": {
+      "hosting": {
+        "beta": [
+          "beta-playground-electra-one"
+        ]
+      }
+    },
+    "electra-one-716c4": {
+      "hosting": {
+        "prod": [
+          "playground-electra-one"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
